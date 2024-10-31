@@ -82,7 +82,7 @@ export const forgotPassword = async (req, res) => {
       subject: "Password Reset Link",
       text: `You are receiving this because you have requested the reset of the password for your account.\n\n
         Please click the following link or paste it into your browser to complete the process:\n\n
-        http://localhost:5173/reset-password/${user._id}/${randomString}\n\n
+        https://frontend-user-authentication.vercel.app/reset-password/${user._id}/${randomString}\n\n
         If you did not request this, please ignore this email and your password will remain unchanged.`,
     };
     transporter.sendMail(mailOptions, function (error, info) {
