@@ -1,4 +1,4 @@
-ler`.# Password Reset Flow Implementation
+# Password Reset 
 
 This project implements a **Password Reset Flow** using `Node.js`, `Express.js`, `Mongoose`, and `React` on the frontend, following the described flow. The backend handles user registration, login, and password reset functionality, while the front-end provides a user-friendly interface built with `React` and styled with `Bootstrap`.
 
